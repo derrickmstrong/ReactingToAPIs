@@ -44,7 +44,7 @@ class App extends Component {
               <div className='card-body'>
                 <h5 className='card-title'>{film.title}</h5>
                 <p className='card-text'>{film.description}</p>
-                <a href={film.url} target="_blank" className='btn btn-primary'>
+                <a href={film.url} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>
                   Go to Endpoint
                 </a>
               </div>
@@ -58,7 +58,7 @@ class App extends Component {
               <div className='card-body'>
                 <h5 className='card-title'>{ppl.name}</h5>
                 <p className='card-text'>{ppl.age}</p>
-                <a href={ppl.url} target="_blank" className='btn btn-primary'>
+                <a href={ppl.url} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>
                   Go to Endpoint
                 </a>
               </div>
